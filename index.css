@@ -1,0 +1,36 @@
+@keyframes rotation{
+    0% {transform: rotate(0deg);height: 150;width: 120;}
+    100% {transform: rotate(-15deg);height: 200;width: 160;}
+}
+
+.picture{
+    height: 150px;
+    width: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.picture:hover{
+    position: relative;
+    z-index: 2;
+    animation: rotation 2s forwards;
+    box-shadow: 10px 10px 5px 12px rgba(0, 0, 0, 0.233);
+}
+.main{
+    z-index: 1;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    background-color: #00798C;
+    box-shadow: 8lspx 8px #234866;
+    justify-content: space-around;
+}
+#card{
+    text-align: center;
+    color: #ece5da;
+}
+#imageHolder{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 150px;
+    width: 120px;
+}
