@@ -21,7 +21,7 @@
     width: 500px;
     display: flex;
     background-color: #00798C;
-    box-shadow: 8px 8px #234866;
+    box-shadow: 7px 7px #234866;
     justify-content: space-around;
 }
 #card{
